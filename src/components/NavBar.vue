@@ -13,7 +13,7 @@ defineEmits(["setToggle"]);
 
 
 <template>
-  <section class="flex-col b-any max-w">
+  <section class="flex-col max-w">
   
   <main role="NAV BAR WRAP" 
   class=" mb-z space-bw p-lr-3 flex-rw p-tb-20 width-mx mb-max-w mb-p-t-b">

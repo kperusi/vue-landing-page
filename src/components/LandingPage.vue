@@ -31,7 +31,7 @@ export default {
         </p>
         <p class="paragraph2 mg-tp-30">
           Take your financial life online. your Easybank account  will be a
-          one-step-shop for spending ,saving, budgeting, investing and much
+          one-step-shop for spending, saving, budgeting, investing and much
           more.
         </p>
         <button class="hover btn bdr-rx-10 mg-tp-30 mb-j-ct">Request Invite</button>
@@ -43,7 +43,7 @@ export default {
 
     <section 
     class="section-two mb2-p-lr-10 mb-j-ct mb-m-0 padding-tp-60 bg-grey p-lr-3 mb-max-w mb-m-t-300 mb-p-lr-10 f-s-2" role="second col">
-      <h1 class="mg-bm-20 text-a mb-f-s-1">Why choose Easybank? this</h1>
+      <h1 class="mg-bm-20 text-a mb-f-s-1">Why choose Easybank?</h1>
       <p class="text-a mg-bm-20 f-s-3 w-3">
         We leverage Open Banking to turn your bank account into financial hub.
         <!-- <br /> -->
@@ -82,7 +82,7 @@ export default {
 
     <section class="mb2-p-lr-10 mb-p-lr-10 mb-j-ct section-two mg-tp-0 bg-wh padding-tp-60 p-lr-3 mb-max-w">
     <h1 class="mg-bm-20 text-a">Latest Article</h1>
-    <div class="flex-rw gap-1 content-cx mb-flex-col wt-img">
+    <div class="flex-rw gap-1 mb-max-w content-cx mb-flex-col wt-img">
       
       <PlainCard class="mb-j-ct">
     <img src="../assets/image-currency.jpg" class="wt-img ht-img b-rx-1 mb-max-w h-1"/>
