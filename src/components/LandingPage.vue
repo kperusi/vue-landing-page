@@ -55,50 +55,52 @@ export default {
           heading="Online Banking"
           details="Our modern web and mobile application allow you to keep track of your  finances wherever you are in the world"
         >
-          <img src="../assets/icon-online.svg" class="mg-bm-20 mg-tp-20" width="60" height="60"/>
+          <img src="../assets/icon-online.svg" class="img-size mg-bm-20 mg-tp-20" width="60" height="60"/>
         </PlainCard>
 
         <PlainCard  style="margin-right: 20px;"
           heading="Simple Budgeting"
           details="See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits."
         >
-          <img src="../assets/icon-budgeting.svg" class="mg-bm-20 mg-tp-20" width="60" height="60"/>
+          <img src="../assets/icon-budgeting.svg" class="img-size mg-bm-20 mg-tp-20" width="60" height="60"/>
         </PlainCard>
         <PlainCard  style="margin-right: 20px;"
           heading="Fast Onboarding"
           details="We don’t do branches. Open your account in minutes online and start taking control of your finances right away."
         >
-          <img src="../assets/icon-onboarding.svg" class="mg-bm-20 mg-tp-20" width="60" height="60"/>
+          <img src="../assets/icon-onboarding.svg" class="img-size mg-bm-20 mg-tp-20" width="60" height="60"/>
         </PlainCard>
 
         <PlainCard 
           heading="Open API"
           details="Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier."
         >
-          <img src="../assets/icon-api.svg" class="mg-bm-20 mg-tp-20" width="60" height="60" />
+          <img src="../assets/icon-api.svg" class="img-size mg-bm-20 mg-tp-20" width="60" height="60" />
         </PlainCard>
       </div>
     </section>
 
-    <section class="mb2-p-lr-10 mb-p-lr-10 mb-j-ct section-two mg-tp-0 bg-wh padding-tp-60 p-lr-3 mb-max-w">
-    <h1 class="mg-bm-20 text-a">Latest Article</h1>
-    <div class="flex-rw gap-1 mb-max-w content-cx mb-flex-col wt-img">
+    <section class="mb2-p-lr-10 mb-p-lr-10 mb-j-ct section-two mg-tp-0 bg-wh padding-tp-60 p-lr-3 mb-max-w p-t">
+    <h1 class="mg-bm-20 text-a mb-f-s-1">Latest Article</h1>
+    <div 
+    class="flex-rw gap-1 mb-max-w content-cx mb-flex-col"
+    >
       
       <PlainCard class="mb-j-ct">
     <img src="../assets/image-currency.jpg" class="wt-img ht-img b-rx-1 mb-max-w h-1"/>
     <div class="padding bg-wh-f letter-s wt-img p-b-1 mb-max-w">
-    <p class=" mg-bm-10 font-s-6  mg-tp-10 ">By Claire Robinson</p>
-    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2">Receive money in any currency with no fees</h3>
-    <p class="font-s-8 f-s-2">The world is getting smaller and we’re becoming more mobile. So  why should you be forced to only  receive money in a single …</p>
+    <p class=" mg-bm-10 font-s-6  mg-tp-10 m-t-1 ">By Claire Robinson</p>
+    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2 m-t-1">Receive money in any currency with no fees</h3>
+    <p class="font-s-8 f-s-2 m-t-1 l-h">The world is getting smaller and we’re becoming more mobile. So  why should you be forced to only  receive money in a single …</p>
     </div>
     </PlainCard>
 
     <PlainCard class="mb-j-ct ">
     <img src="../assets/image-restaurant.jpg" class="wt-img ht-img b-rx-1 mb-max-w h-1"/>
     <div class="padding bg-wh-f letter-s wt-img p-b-1 mb-max-w">
-    <p class="mg-bm-10 font-s-6 mg-tp-10"> By Wilson Hutton</p>
-    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2">Treat yourself without worrying about money</h3>
-    <p class="font-s-8 f-s-2">Our simple budgeting feature allows you to separate out your spending and set 
+    <p class="mg-bm-10 font-s-6 mg-tp-10 m-t-1"> By Wilson Hutton</p>
+    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2 m-t-1">Treat yourself without worrying about money</h3>
+    <p class="font-s-8 f-s-2 m-t-1 l-h">Our simple budgeting feature allows you to separate out your spending and set 
   realistic limits each month. That means you …
 </p>
     </div>
@@ -107,19 +109,19 @@ export default {
     <PlainCard class="mb-j-ct ">
     <img src="../assets/image-plane.jpg" class="wt-img ht-img b-rx-1 mb-max-w h-1"/>
     <div class="padding bg-wh-f letter-s wt-img p-b-1 mb-max-w">
-    <p class=" mg-bm-10 font-s-6 mg-tp-10"> By  Wilson Hutton</p>
-    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2">Take your Easybank card wherever you go</h3>
-    <p class=" font-s-8 f-s-2">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+    <p class=" mg-bm-10 font-s-6 mg-tp-10 m-t-1"> By  Wilson Hutton</p>
+    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2 m-t-1">Take your Easybank card wherever you go</h3>
+    <p class=" font-s-8 f-s-2 m-t-1 l-h">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
   while you’re abroad. We’ll even show you …</p>
     </div>
     </PlainCard>
 
     <PlainCard class="mb-j-ct ">
-    <img src="../assets/image-confetti.jpg" class="wt-img ht-img b-rx-1 mb-max-w h-1"/>
+    <img src="../assets/image-confetti.jpg" class="m-t-1 wt-img ht-img b-rx-1 mb-max-w h-1"/>
     <div class="padding-2 bg-wh-f letter-s wt-img p-b-1 mb-max-w">
-    <p class="mg-bm-10 font-s-6 mg-tp-10">By Claire Robinson</p>
-    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2">Our invite-only Beta <br> accounts are now live!</h3>
-    <p class="font-s-8 f-s-2">After a lot of hard work by the <br> whole team, we’re excited to launch our closed beta. 
+    <p class="mg-bm-10 font-s-6 mg-tp-10 m-t-1">By Claire Robinson</p>
+    <h3 class="mg-bm-10 font-s-9 hover-1 f-s-2 m-t-1">Our invite-only Beta <br> accounts are now live!</h3>
+    <p class="font-s-8 f-s-2 m-t-1  l-h">After a lot of hard work by the <br> whole team, we’re excited to launch our closed beta. 
   It’s easy to request an invite through the site ...</p>
     </div>
     </PlainCard>
@@ -128,10 +130,11 @@ export default {
     </section>
     <footer class="footer mb2-p-lr-10 flex-rw space-bw mb-j-ct bg-dark-blue p-tb-40 p-lr-3 mb-flex-col mb-max-w gap">
     <section class=" gap flex-col mb-j-ct mb-max-w">
-    <div class=" flex-rw m-b-5  mb-max-w mb-j-ct"><svg xmlns="http://www.w3.org/2000/svg" width="139" height="20"><defs><linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%"><stop offset="0%" stop-color="#33D35E"/><stop offset="100%" stop-color="#2AB6D9"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="white" fill-rule="nonzero" d="M37.754 15.847c2.852 0 5.152-1.622 5.952-4.216h-3.897c-.376.665-1.14 1.066-2.055 1.066-1.237 0-2.065-.674-2.32-1.978h8.44c.051-.352.081-.694.081-1.037 0-3.335-2.537-5.95-6.201-5.95-3.568 0-6.175 2.564-6.175 6.049 0 3.473 2.628 6.066 6.175 6.066zm2.344-7.297h-4.596c.317-1.129 1.11-1.749 2.252-1.749 1.181 0 2 .613 2.344 1.75zm10.946 7.296c1.32 0 2.5-.434 3.43-1.188l.336.804h3.027V4.093h-2.919l-.4.88c-.94-.775-2.135-1.222-3.474-1.222-3.476 0-5.961 2.505-5.961 6.026 0 3.533 2.485 6.07 5.961 6.07zm.524-3.467c-1.467 0-2.545-1.108-2.545-2.593 0-1.475 1.069-2.583 2.545-2.583 1.466 0 2.544 1.108 2.544 2.583 0 1.485-1.078 2.593-2.544 2.593zm13.123 3.467c3.02 0 5.025-1.554 5.025-3.93 0-2.883-2.387-3.256-4.183-3.575-1.08-.193-1.95-.344-1.95-.99 0-.527.422-.838 1.05-.838.71 0 1.197.337 1.197 1.063h3.667c-.044-2.303-1.92-3.843-4.816-3.843-2.912 0-4.854 1.47-4.854 3.75 0 2.757 2.337 3.289 4.1 3.574 1.092.181 1.952.368 1.952 1.024 0 .587-.543.88-1.116.88-.742 0-1.32-.383-1.32-1.214h-3.77c.036 2.463 1.919 4.1 5.018 4.1zm8.1 3.858c2.936 0 4.344-1.257 5.877-4.736l4.764-10.863h-4.206l-2.249 6.263-2.412-6.263H70.31l4.698 10.43c-.53 1.414-.983 1.804-2.48 1.804H71.45v3.365h1.341zm18.504-3.858c3.5 0 5.973-2.515 5.973-6.048S94.796 3.75 91.295 3.75a5.332 5.332 0 00-2.825.784V0H84.6v15.474h2.897l.37-.844c.923.771 2.102 1.216 3.428 1.216zm-.523-3.467c-1.467 0-2.545-1.108-2.545-2.58 0-1.486 1.078-2.594 2.545-2.594 1.466 0 2.544 1.108 2.544 2.593 0 1.473-1.087 2.58-2.544 2.58zm13.598 3.467c1.32 0 2.5-.434 3.43-1.188l.336.804h3.027V4.093h-2.918l-.401.88c-.939-.775-2.135-1.222-3.474-1.222-3.476 0-5.96 2.505-5.96 6.026 0 3.533 2.484 6.07 5.96 6.07zm.524-3.467c-1.467 0-2.545-1.108-2.545-2.593 0-1.475 1.07-2.583 2.545-2.583 1.467 0 2.545 1.108 2.545 2.583 0 1.485-1.078 2.593-2.545 2.593zm12.653 3.095V9.403c0-1.447.702-2.3 1.923-2.3.986 0 1.483.657 1.483 1.98v6.39h3.915V8.543c0-2.897-1.733-4.773-4.373-4.773-1.47 0-2.733.565-3.58 1.508l-.537-1.172h-2.747v11.369h3.916zm13.748 0v-4.808l2.848 4.808h4.616l-3.902-5.95 3.543-5.419h-4.397l-2.708 4.454V0h-3.916v15.474h3.916z"/><g fill="url(#a)"><path d="M10.802 0L0 19.704h5.986L16.789 0z"/><path opacity=".5" d="M18.171 0L7.368 19.704h5.986L24.157 0z"/><path opacity=".15" d="M25.539 0L14.737 19.704h5.986L31.525 0z"/></g></g></svg></div>
+    <div class=" flex-rw m-b-5   mb-max-w mb-j-ct">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-2" width="139" height="20"><defs><linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%"><stop offset="0%" stop-color="#33D35E"/><stop offset="100%" stop-color="#2AB6D9"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="white" fill-rule="nonzero" d="M37.754 15.847c2.852 0 5.152-1.622 5.952-4.216h-3.897c-.376.665-1.14 1.066-2.055 1.066-1.237 0-2.065-.674-2.32-1.978h8.44c.051-.352.081-.694.081-1.037 0-3.335-2.537-5.95-6.201-5.95-3.568 0-6.175 2.564-6.175 6.049 0 3.473 2.628 6.066 6.175 6.066zm2.344-7.297h-4.596c.317-1.129 1.11-1.749 2.252-1.749 1.181 0 2 .613 2.344 1.75zm10.946 7.296c1.32 0 2.5-.434 3.43-1.188l.336.804h3.027V4.093h-2.919l-.4.88c-.94-.775-2.135-1.222-3.474-1.222-3.476 0-5.961 2.505-5.961 6.026 0 3.533 2.485 6.07 5.961 6.07zm.524-3.467c-1.467 0-2.545-1.108-2.545-2.593 0-1.475 1.069-2.583 2.545-2.583 1.466 0 2.544 1.108 2.544 2.583 0 1.485-1.078 2.593-2.544 2.593zm13.123 3.467c3.02 0 5.025-1.554 5.025-3.93 0-2.883-2.387-3.256-4.183-3.575-1.08-.193-1.95-.344-1.95-.99 0-.527.422-.838 1.05-.838.71 0 1.197.337 1.197 1.063h3.667c-.044-2.303-1.92-3.843-4.816-3.843-2.912 0-4.854 1.47-4.854 3.75 0 2.757 2.337 3.289 4.1 3.574 1.092.181 1.952.368 1.952 1.024 0 .587-.543.88-1.116.88-.742 0-1.32-.383-1.32-1.214h-3.77c.036 2.463 1.919 4.1 5.018 4.1zm8.1 3.858c2.936 0 4.344-1.257 5.877-4.736l4.764-10.863h-4.206l-2.249 6.263-2.412-6.263H70.31l4.698 10.43c-.53 1.414-.983 1.804-2.48 1.804H71.45v3.365h1.341zm18.504-3.858c3.5 0 5.973-2.515 5.973-6.048S94.796 3.75 91.295 3.75a5.332 5.332 0 00-2.825.784V0H84.6v15.474h2.897l.37-.844c.923.771 2.102 1.216 3.428 1.216zm-.523-3.467c-1.467 0-2.545-1.108-2.545-2.58 0-1.486 1.078-2.594 2.545-2.594 1.466 0 2.544 1.108 2.544 2.593 0 1.473-1.087 2.58-2.544 2.58zm13.598 3.467c1.32 0 2.5-.434 3.43-1.188l.336.804h3.027V4.093h-2.918l-.401.88c-.939-.775-2.135-1.222-3.474-1.222-3.476 0-5.96 2.505-5.96 6.026 0 3.533 2.484 6.07 5.96 6.07zm.524-3.467c-1.467 0-2.545-1.108-2.545-2.593 0-1.475 1.07-2.583 2.545-2.583 1.467 0 2.545 1.108 2.545 2.583 0 1.485-1.078 2.593-2.545 2.593zm12.653 3.095V9.403c0-1.447.702-2.3 1.923-2.3.986 0 1.483.657 1.483 1.98v6.39h3.915V8.543c0-2.897-1.733-4.773-4.373-4.773-1.47 0-2.733.565-3.58 1.508l-.537-1.172h-2.747v11.369h3.916zm13.748 0v-4.808l2.848 4.808h4.616l-3.902-5.95 3.543-5.419h-4.397l-2.708 4.454V0h-3.916v15.474h3.916z"/><g fill="url(#a)"><path d="M10.802 0L0 19.704h5.986L16.789 0z"/><path opacity=".5" d="M18.171 0L7.368 19.704h5.986L24.157 0z"/><path opacity=".15" d="M25.539 0L14.737 19.704h5.986L31.525 0z"/></g></g></svg></div>
      
 
-      <div class="flex-rw mb-j-ct mb-max-w gap icon-wrap m-tp-20 gap-10">
+      <div class=" flex-rw mb-j-ct mb-max-w gap icon-wrap m-tp-20 gap-10">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path  d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path  d="M10.333 0c-5.522 0-10 4.478-10 10 0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.701 14.077c-1.752.12-5.653.12-7.402 0C4.735 13.947 4.514 13.018 4.5 10c.014-3.024.237-3.947 2.132-4.077 1.749-.12 5.651-.12 7.402 0 1.898.13 2.118 1.059 2.133 4.077-.015 3.024-.238 3.947-2.133 4.077zM8.667 8.048l4.097 1.949-4.097 1.955V8.048z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18"><path  d="M20.667 2.797a8.192 8.192 0 01-2.357.646 4.11 4.11 0 001.804-2.27 8.22 8.22 0 01-2.606.996A4.096 4.096 0 0014.513.873c-2.649 0-4.595 2.472-3.997 5.038a11.648 11.648 0 01-8.457-4.287 4.109 4.109 0 001.27 5.478A4.086 4.086 0 011.47 6.59c-.045 1.901 1.317 3.68 3.29 4.075a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.834 2.85 8.25 8.25 0 01-6.075 1.7 11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.662-12.205a8.354 8.354 0 002.048-2.124z"/></svg>
@@ -142,7 +145,7 @@ export default {
     
     </section>
 
-    <section id="s-1" class="flex-rw mb-flex-col space-bw w-2 mb-max-w ">
+    <section id="s-1" class=" flex-rw mb-flex-col space-bw w-2 mb-max-w ">
     <div class="flex-col space-bw mb-j-ct gap">
     <a href="#">About Us</a>
     <a href="#">Contact</a>
@@ -157,11 +160,12 @@ export default {
     
     </section>
 
-    <section class="flex-col  space-bw mb-j-ct gap">
+    <section class="mb-max-w flex-col  space-bw mb-j-ct gap">
     <button class="hover btn bdr-rx-10 m-l-auto mb-m-0">
     Request Invite
     </button>
-    <p class="flex-rw color-grey j-ct mb-max-w"><svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M512 85.333333C276.266667 85.333333 85.333333 276.266667 85.333333 512s190.933333 426.666667 426.666667 426.666667 426.666667-190.933333 426.666667-426.666667S747.733333 85.333333 512 85.333333z m0 768c-188.16 0-341.333333-153.173333-341.333333-341.333333S323.84 170.666667 512 170.666667s341.333333 153.173333 341.333333 341.333333-153.173333 341.333333-341.333333 341.333333z m-81.92-389.76c2.346667-13.866667 6.613333-26.24 12.8-37.12s14.72-19.626667 25.173333-26.24c10.026667-6.186667 22.613333-9.6 38.186667-9.813333 10.24 0.213333 19.626667 1.92 27.733333 5.546667 8.746667 3.84 16 8.96 22.186667 15.36s10.88 14.08 14.293333 22.613333 5.333333 17.706667 5.76 27.306667h76.373334c-0.64-20.053333-4.693333-38.4-11.733334-55.04s-17.28-30.933333-30.08-43.093334-28.16-21.333333-46.08-27.946666-37.76-10.026667-59.52-10.026667c-27.733333 0-51.84 4.693333-72.32 14.293333s-37.546667 22.613333-51.2 39.253334-23.893333 35.84-30.506666 57.813333-9.813333 45.226667-9.813334 69.76v11.733333c0 24.746667 3.413333 48 10.026667 69.973334s16.853333 41.173333 30.506667 57.6 30.72 29.44 51.413333 39.04 44.8 14.293333 72.533333 14.293333c20.053333 0 38.826667-3.2 56.32-9.813333s32.853333-15.573333 46.08-27.093334 23.893333-24.746667 31.573334-40.106666 12.16-31.573333 12.8-49.066667h-76.373334a60.757333 60.757333 0 0 1-21.76 44.16c-6.4 5.333333-13.866667 9.6-22.4 12.586667-8.106667 2.773333-16.64 4.266667-25.813333 4.266666-15.36-0.426667-27.946667-3.626667-38.186667-10.026666-10.666667-6.826667-19.2-15.573333-25.386666-26.453334s-10.453333-23.253333-12.8-37.333333-3.2-27.733333-3.2-42.026667v-11.733333c0-14.506667 1.066667-28.8 3.413333-42.666667z"  /></svg>Easybank. All Right Reserved</p>
+    <p class="flex-rw mb-j-ct text-a f-s-12 color-grey j-ct mb-max-w">
+    <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M512 85.333333C276.266667 85.333333 85.333333 276.266667 85.333333 512s190.933333 426.666667 426.666667 426.666667 426.666667-190.933333 426.666667-426.666667S747.733333 85.333333 512 85.333333z m0 768c-188.16 0-341.333333-153.173333-341.333333-341.333333S323.84 170.666667 512 170.666667s341.333333 153.173333 341.333333 341.333333-153.173333 341.333333-341.333333 341.333333z m-81.92-389.76c2.346667-13.866667 6.613333-26.24 12.8-37.12s14.72-19.626667 25.173333-26.24c10.026667-6.186667 22.613333-9.6 38.186667-9.813333 10.24 0.213333 19.626667 1.92 27.733333 5.546667 8.746667 3.84 16 8.96 22.186667 15.36s10.88 14.08 14.293333 22.613333 5.333333 17.706667 5.76 27.306667h76.373334c-0.64-20.053333-4.693333-38.4-11.733334-55.04s-17.28-30.933333-30.08-43.093334-28.16-21.333333-46.08-27.946666-37.76-10.026667-59.52-10.026667c-27.733333 0-51.84 4.693333-72.32 14.293333s-37.546667 22.613333-51.2 39.253334-23.893333 35.84-30.506666 57.813333-9.813333 45.226667-9.813334 69.76v11.733333c0 24.746667 3.413333 48 10.026667 69.973334s16.853333 41.173333 30.506667 57.6 30.72 29.44 51.413333 39.04 44.8 14.293333 72.533333 14.293333c20.053333 0 38.826667-3.2 56.32-9.813333s32.853333-15.573333 46.08-27.093334 23.893333-24.746667 31.573334-40.106666 12.16-31.573333 12.8-49.066667h-76.373334a60.757333 60.757333 0 0 1-21.76 44.16c-6.4 5.333333-13.866667 9.6-22.4 12.586667-8.106667 2.773333-16.64 4.266667-25.813333 4.266666-15.36-0.426667-27.946667-3.626667-38.186667-10.026666-10.666667-6.826667-19.2-15.573333-25.386666-26.453334s-10.453333-23.253333-12.8-37.333333-3.2-27.733333-3.2-42.026667v-11.733333c0-14.506667 1.066667-28.8 3.413333-42.666667z"  /></svg>Easybank. All Right Reserved</p>
     </section>
  
     </footer>

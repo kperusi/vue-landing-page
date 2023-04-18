@@ -1,7 +1,7 @@
 <template>
     <main class=" mb-j-ct mb-max-w flex-col plain-card mb-p-lr-10 ">
     <slot></slot>
-    <h1 class="mg-bm-20">{{ heading }}</h1>
+    <h1 class="mg-bm-20 f-s-11">{{ heading }}</h1>
     <p class="details text-a">{{ details }}</p>
     </main>
 

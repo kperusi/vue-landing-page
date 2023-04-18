@@ -4,8 +4,8 @@ import NavBar from './components/NavBar.vue'
 import { ref } from 'vue';
 const toggle = ref(false)
 const active = ref('')
-const show = ref('')
-const margin = ref('')
+const show = ref('close')
+const margin = ref('margin')
 
 
 
@@ -13,17 +13,19 @@ const setToggle =()=>{
    
   if(toggle.value===true){
     toggle.value = false
-    active.value='active'
-    show.value='open'
-    margin.value= ''
+    active.value=''
+    show.value='close'
+    margin.value= 'margin'
   }
   else if (toggle.value===false){
     toggle.value = true
-    active.value= ''
-    show.value='close'
-    margin.value='margin'
+    active.value= 'active'
+    show.value='open'
+    margin.value=''
   }
    console.log(margin.value)
+   console.log(toggle.value)
+   console.log(active.value)
 }
 
 </script>

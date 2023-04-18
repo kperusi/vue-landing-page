@@ -16,7 +16,7 @@ defineEmits(["setToggle"]);
   <section class="flex-col max-w">
   
   <main role="NAV BAR WRAP" 
-  class=" mb-z space-bw p-lr-3 flex-rw p-tb-20 width-mx mb-max-w mb-p-t-b">
+  class="nav-main mb-z space-bw p-lr-3 flex-rw p-tb-20 width-mx mb-max-w mb-p-t-b">
   <img src="../assets/logo.svg" alt="" width="130" height="30">
     <nav role="navbar container">
       <ul class = 'list-wrap no-list-style flex-rw gap-10 mb-no-display' role="navLink containers">
