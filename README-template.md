@@ -37,7 +37,7 @@ Users should be able to:
 
 - Solution URL:https://github.com/kperusi/vue-landing-page
 
-- Live Site URL: https://fame-vue-landing-page.vercel.app/
+- Live Site URL: https://fame-easyapp-landing.netlify.app/
 
 ## My process
 
